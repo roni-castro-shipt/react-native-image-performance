@@ -14,7 +14,7 @@ function App() {
       </View>
       {showImage && (
         <Image
-          // resizeMethod="resize" this solves the issue on Android
+          // resizeMethod="resize" // this solves the issue on Android
           style={styles.image}
           source={{
             uri: 'https://roniccastro.s3.us-east-1.amazonaws.com/crash.jpg',
